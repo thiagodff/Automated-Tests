@@ -4,8 +4,7 @@
 
 Para garantir o bom funcionamento do sistema. Podemos concluir com o gráfico abaixo que o tempo gasto para escrever um teste sai mais barato do que ter um bug em produção
 
-<img src="https://i.imgur.com/mWXoq5k.png" width="80%">
-<br>
+<img src="https://i.imgur.com/mWXoq5k.png" width="100%">
 
 ## Principais tipos de testes
 
@@ -14,7 +13,6 @@ Para garantir o bom funcionamento do sistema. Podemos concluir com o gráfico ab
 Testam o comportamento do sistema, os requisitos funcionais (o comportamento do software).
 
 <img src="https://i.imgur.com/kN3HpuV.png" width="50%">
-<br>
 
 ### Testes Unitários (Testes de unidade)
 
@@ -43,8 +41,7 @@ Ferramentas (Para JavasScript):
 Testa uma integração: Testam unidades de forma integrada.
 Teste de um endpoint , você realiza uma ação e espera uma resposta.
 
-<img src="https://i.imgur.com/ND2emLG.gif" width="50%">
-<br>
+<img src="https://i.imgur.com/ND2emLG.gif" width="60%">
 
 Características:
 
@@ -81,7 +78,6 @@ Ferramentas (Para JavasScript):
 Ice Cream Cone Anti Pattern
 
 <img src="https://i.imgur.com/iBsZDFL.png" width="80%">
-<br>
 
 O anti padrão fala sobre colocar os testes mais caros possíveis em maior quantidade. Geralmente isso ocorre em empresas com sistemas mais antigos colocando a desculpa de que o projeto está muito integrado, o que dificulta testes unitários, assim, realizar testes E2E se torna relativamente mais viável pois ferramentas como o Selenium consegue gravar você utilizando a aplicação e simulando o uso e depois reproduzi-lo em forma de teste.
 
@@ -97,12 +93,10 @@ Curiosidade:
 
 ### Ok, mas o que eu preciso testar?
 
-Smoke Test (Teste de fumação): Testam as funcionalidades principais do nosso software.
+- Smoke Test (Teste de fumaça): Testam as funcionalidades principais do nosso software. ex: em um e-commerce, teste o login, carrinho e o checkout (endereço, cartão e boleto).
 
-ex: em um e-commerce, teste o login, carrinho e o checkout (endereço, cartão e boleto).
-
-Testes de regressão visual: Testam se uma nova funcionalidade não altera um comportamento antigo.
-Basicamente esse teste a cada nova versão tira um screenshot da versão antiga e da nova e as compara.
+- Testes de regressão visual: Testam se uma nova funcionalidade não altera um comportamento antigo.
+  Basicamente esse teste a cada nova versão tira um screenshot da versão antiga e da nova e as compara.
 
 ### Testes não funcionais
 
