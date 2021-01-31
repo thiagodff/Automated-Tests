@@ -30,3 +30,12 @@ A propriedade "data-testid" não é recomendada pois um usuário não busca um b
 ## User Event e Fire Event
 
 O userEvent representa ações de um usuário, já o fireEvent faz a mesma tarefa mas em um nível mais de api, mais baixo nível. O recomendado é sempre utilizar o userEvent.
+
+## Teste Coverage
+
+É consenso que o ideal dos testes é manter o coverage em 100%, porém é um acordo comum que o mínimo seja chegar nos 80% pois na maioria das vezes chegar nos 100% é muito difícil e em alguns casos desnecessário.
+
+```sh
+yarn test --coverage --watchAll=false
+```
+
