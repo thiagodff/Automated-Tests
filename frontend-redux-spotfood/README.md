@@ -27,11 +27,3 @@ As this application will be a worldwide success, it must be prepared to be acces
 We **strongly recommend** using React to build the application.
 Also, briefly elaborate on your solution architecture details, choice of patterns and frameworks.
 Fork this repository and submit your code.
-
-## Teste Coverage
-
-É consenso que o ideal dos testes é manter o coverage em 100%, porém é um acordo comum que o mínimo seja chegar nos 80% pois na maioria das vezes chegar nos 100% é muito difícil e em alguns casos desnecessário.
-
-```sh
-yarn test --coverage --watchAll=false
-```
